@@ -1,0 +1,14 @@
+[
+  {
+    "str_name": "Dionizio Neto",
+    "str_email": "dionizioneto@gmail.com",
+    "str_password": "leadbase1234",
+    "str_type": "gerente"
+  },
+  {
+    "str_name": "Gustavo Freitas",
+    "str_email": "gustavofreitas@gmail.com",
+    "str_password": "leadbase1234",
+    "str_type": "vendedor"
+  }
+]
