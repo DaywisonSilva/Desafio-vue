@@ -1,0 +1,173 @@
+{
+  "id": "0586df66-186c-49f6-a77d-1cc58658075c",
+  "version": "2.0",
+  "name": "Leadbase",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "f8fa0be2-c831-48d2-aed7-09d394933f81",
+    "name": "add_venda",
+    "commands": [{
+      "id": "17904aca-f763-44aa-a309-01295fbe461d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b25c33ff-9aa8-47d8-9028-419ba454faa9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1360x739",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3123a6a4-e467-459b-994f-54c7c2152bca",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div/button",
+      "targets": [
+        ["css=.q-btn--rounded", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='q-app']/div/div[2]/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e13d8a6-c8c1-4a09-bbf5-e85f61fad5de",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=f_461837b5-e8c8-4ffc-bbad-be918e8715d5", "id"],
+        ["css=#f_461837b5-e8c8-4ffc-bbad-be918e8715d5", "css:finder"],
+        ["xpath=//input[@id='f_461837b5-e8c8-4ffc-bbad-be918e8715d5']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71131297-056f-437c-88d8-8ab7bd318051",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=f_461837b5-e8c8-4ffc-bbad-be918e8715d5", "id"],
+        ["css=#f_461837b5-e8c8-4ffc-bbad-be918e8715d5", "css:finder"],
+        ["xpath=//input[@id='f_461837b5-e8c8-4ffc-bbad-be918e8715d5']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "João"
+    }, {
+      "id": "09c112a3-0ab9-4c3d-b9f7-bfaf5c77f3a4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[2]/div/div/div/div",
+      "targets": [
+        ["css=.q-field__control-container > .row", "css:finder"],
+        ["xpath=//label[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be25e930-7ce0-455d-8032-61b246a95ac5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/div[2]/div/span",
+      "targets": [
+        ["css=.q-manual-focusable--focused span", "css:finder"],
+        ["xpath=//div[@id='qvs_1']/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'dexametasona')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64891d8b-0edd-44e4-82e2-a31f82205664",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[4]/div/div[2]/div[2]",
+      "targets": [
+        ["css=.q-manual-focusable--focused", "css:finder"],
+        ["xpath=//div[@id='qvs_1']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22fa3a74-84f5-4365-9e00-ed12e072d928",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form/div",
+      "targets": [
+        ["css=.q-col-gutter-sm", "css:finder"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8345c07d-b102-487e-8d29-cfbaaa1c757e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[3]/div/div/div/input",
+      "targets": [
+        ["id=f_93fe6d14-610b-4020-99aa-02c1e6806d76", "id"],
+        ["css=#f_93fe6d14-610b-4020-99aa-02c1e6806d76", "css:finder"],
+        ["xpath=//input[@id='f_93fe6d14-610b-4020-99aa-02c1e6806d76']", "xpath:attributes"],
+        ["xpath=//label[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f3a4d49-8e04-436f-9c16-e4eb2570049d",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//label[3]/div/div/div/input",
+      "targets": [
+        ["id=f_93fe6d14-610b-4020-99aa-02c1e6806d76", "id"],
+        ["css=#f_93fe6d14-610b-4020-99aa-02c1e6806d76", "css:finder"],
+        ["xpath=//input[@id='f_93fe6d14-610b-4020-99aa-02c1e6806d76']", "xpath:attributes"],
+        ["xpath=//label[3]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "7d675c37-2b3f-4887-a9cf-5adb0ec897ef",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[4]/div/div/div/input",
+      "targets": [
+        ["id=f_0de1e573-8b5b-4a59-b915-60149ce7ce58", "id"],
+        ["css=#f_0de1e573-8b5b-4a59-b915-60149ce7ce58", "css:finder"],
+        ["xpath=//input[@id='f_0de1e573-8b5b-4a59-b915-60149ce7ce58']", "xpath:attributes"],
+        ["xpath=//label[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24d93b60-b1f5-430c-97f9-f314cb69168f",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//label[4]/div/div/div/input",
+      "targets": [
+        ["id=f_0de1e573-8b5b-4a59-b915-60149ce7ce58", "id"],
+        ["css=#f_0de1e573-8b5b-4a59-b915-60149ce7ce58", "css:finder"],
+        ["xpath=//input[@id='f_0de1e573-8b5b-4a59-b915-60149ce7ce58']", "xpath:attributes"],
+        ["xpath=//label[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "29"
+    }, {
+      "id": "effd4642-a954-424a-9d82-e2dbc515345b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/button/span[2]/span",
+      "targets": [
+        ["css=.bg-orange-8 .block", "css:finder"],
+        ["xpath=//div[2]/button/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3b809882-8063-47c9-a5b4-096e83fff075",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f8fa0be2-c831-48d2-aed7-09d394933f81"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

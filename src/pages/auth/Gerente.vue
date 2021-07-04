@@ -9,7 +9,13 @@
       />
       <q-form class="card__form" @submit.prevent="submit('gerente')">
         <div class="card__containerInput">
-          <q-input label="Login" filled color="orange-10" v-model="email" />
+          <q-input
+            label="Login"
+            filled
+            color="orange-10"
+            v-model="email"
+            :rules="[val => !!val || 'Preenchimento obrigatório']"
+          />
         </div>
         <div class="card__containerInput">
           <q-input
@@ -19,6 +25,7 @@
             :type="isPwd ? 'password' : 'text'"
             color="orange-10"
             autocomplete="on"
+            :rules="[val => !!val || 'Preenchimento obrigatório']"
           >
             <template v-slot:append>
               <q-icon
@@ -86,7 +93,7 @@ export default {
     }
 
     .card__form {
-      @extend .row, .q-col-gutter-md, .items-center, .q-mt-md;
+      @extend .row, .q-col-gutter-xs, .items-center, .q-mt-md;
     }
     .card__containerInput {
       @extend .col-12;

@@ -17,8 +17,8 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above class="drawer">
-      <q-list>
+    <q-drawer v-model="leftDrawerOpen" show-if-above class="drawer bg-grey-1">
+      <q-list class="bg-grey">
         <q-img
           class="absolute-top"
           src="https://cdn.quasar.dev/img/material.png"
@@ -79,15 +79,11 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "quasar/src/css/index.sass";
 
-.drawer {
-  @extend .bg-grey-3;
-
-  .drawer__btn {
-    @extend .q-mb-md;
-    position: absolute;
-    bottom: 0px;
-    left: 10%;
-    width: 80%;
-  }
+.drawer__btn {
+  @extend .q-mb-md;
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+  width: 80%;
 }
 </style>

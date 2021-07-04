@@ -93,7 +93,7 @@ export default {
     }
 
     .card__form {
-      @extend .row, .q-col-gutter-md, .items-center, .q-mt-md;
+      @extend .row, .q-col-gutter-xs, .items-center, .q-mt-md;
     }
     .card__containerInput {
       @extend .col-12;

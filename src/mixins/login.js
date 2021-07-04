@@ -13,7 +13,8 @@ export const login = {
         }
       });
       if (hasUser) {
-        this.$router.push("/");
+        let currentUser = this.$q.localStorage.getItem('currentUser')
+        this.$router.push(`/${currentUser.str_type}`);
         this.$q.notify({
           type: "positive",
           message: "Usuário logado"
